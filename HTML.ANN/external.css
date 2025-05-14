@@ -1,0 +1,62 @@
+h1{
+background-color:blue;
+color:gold;
+}
+.myformat{background-color: #C21807;
+color:blue;
+width:400px; 
+position:relative;left:200px;
+border:20px solid rgb(255,165,0);
+}
+.body {
+  background-image: url("./IMAGE/BGIMAGE.jpeg");
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents tiling of the image */
+}
+
+h1{
+background-color:gold;
+font-style:Fantasy;
+font-variant:small-caps;
+color:rgb(60,179,113)
+}
+
+h2{
+font-style:italic;
+font-variant:small-caps;
+font-size:xx-large}
+
+#hobbie
+{
+	background:green;
+	color:gold;
+}
+
+.box{
+	width:400px;
+	height:300px;
+	border:solid 3px red;
+	position:relative;
+	left:250px;
+	right:200px;
+	top:120px;
+	bottom:300px;
+	background-image:url("images/coolcat.jpeg");
+	background-size: cover;
+	
+	
+}
+.box1{
+	width:200px;
+	height:200px;
+	background:red;
+	position:relative;
+	left:100px;
+	top:50px;
+	color:white;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	text-align:top;
+	
+}
