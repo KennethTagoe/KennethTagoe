@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unicorn Architectural Services</title>
+    <link rel="stylesheet"href="external.css"type="text/css">
+	<mete charset="Utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Bootstrap 5.3 CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    <style>
+      /* Custom styles */
+      .team-member img {
+        border-radius: 50%;
+        object-fit: cover;
+      }
+ 
+    </style>
+  </head>
+  <body>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">UNICORN ARCHITECTURE DRAWINGS AND DESIGNS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+		  <li class="nav-item"><a class="nav link" href="pages/HTML.ANN">sign in</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="mt-5 pt-6">
+  <div class="container marketing">
+
+    <!-- Team Section -->
+    <section class="team-section text-center my-5">
+      <h2>Meet Our Team</h2>
+      <div class="row">
+        <div class="col-lg-3 team-member">
+          <img src="ken.jpg" width="140" height="140" alt="Kenneth Tagoe - Lead Architect">
+          <h3>Kenneth Tagoe</h3>
+          <p>Lead Architect</p>
+        </div>
+        <div class="col-lg-3 team-member">
+          <img src="Gideon.jpg" width="140" height="140" alt="Appiah Gideon - Design Engineer">
+          <h3>Appiah Gideon</h3>
+          <p>Design Engineer</p>
+        </div>
+        <div class="col-lg-3 team-member">
+          <img src="chris.jpg" width="140" height="140" alt="Ahiagba Kwame Christian - Project Manager">
+          <h3>Ahiagba Kwame Christian</h3>
+          <p>Project Manager</p>
+        </div>
+        <div class="col-lg-3 team-member">
+          <img src="belinda.jpg" width="140" height="140" alt="Akrasi Belinda Enyonam - Design Advisor">
+          <h3>Akrasi Belinda Enyonam</h3>
+          <p>Design Advisor</p>
+        </div>
+      </div>
+	    <div class="row">
+	     <div class="col-lg-3 team-member">
+          <img src="Ann.JPG" width="140" height="140" alt="Atamudzi Mawuena Anne - Site Supervisor">
+          <h3>Atamudzi Mawuena Anne</h3>
+          <p>Site Supervisor</p>
+        </div>
+		  <div class="col-lg-3 team-member">
+          <img src="Nyhira.JPG" width="140" height="140" alt="Yeboah Efua Nhyira Owusu - Model designer">
+          <h3>Yeboah Efua Nhyira Owusu</h3>
+          <p>Model designer</p>
+      </div>
+    </section>
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="s3.JPEG" class="d-block w-100 h-50" alt="Slide 1">
+          <div class="carousel-caption text-start">
+            <h1>THE DESIGNERS</h1>
+            <p> "Rome wasn’t built in a day, but it was designed first."</p>
+            <a class="btn btn-primary btn-lg" href="HTML.ANN">Sign up today</a>
+			<a href="HTML.ANN" style="text-decoration:none;color:white;">sign in|</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="s1.JPEG" class="d-block w-100" alt="Slide 2">
+          <div class="carousel-caption">
+            <h1>CREATIVITY & IMAGINATION</h1>
+            <p>"To create, one must first question everything."</p>
+            <a class="btn btn-primary btn-lg" href="#">Learn more</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="s2.JPEG" class="d-block w-100" alt="Slide 3">
+          <div class="carousel-caption text-middle">
+            <h1>TIMELESSNESS & SUSTAINABILITY</h1>
+            <p>"Any work of architecture that does not express serenity is a mistake."</p>
+            <a class="btn btn-primary btn-lg" href="#">Browse gallery</a>
+          </div>
+        </div>
+		 <div class="carousel-item">
+          <img src="s4.JPEG" class="d-block w-100" alt="Slide 3">
+          <div class="carousel-caption text-middle">
+            <h1>VISION & PURPOSE</h1>
+            <p>"A building is not just a place to be but a way to be."</p>
+            <a class="btn btn-primary btn-lg" href="#">INSERT IMAGE</a>
+          </div>
+        </div>
+		 <div class="carousel-item">
+          <img src="s5.JPEG" class="d-block w-100" alt="Slide 3">
+          <div class="carousel-caption text-middle">
+            <h1>CREATIVITY & INNOVATION</h1>
+            <p>"There are 360 degrees, so why stick to one?"</p>
+            
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- Featurette Section -->
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Beautiful House Modeling <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">We have nice models that would suit your dream house.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="Mansion.jpg" class="img-fluid rounded" alt="Beautiful house model">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Awesome School Building <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Awesome school buildings that will make your students feel comfortable.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="school.png" class="img-fluid rounded" alt="Awesome school building">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+  </div> <!-- /.container -->
+  
+  <section id="testimonials" class="container my-5">
+    <h2 class="text-center mb-4">What Our Clients Say</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="text-center">
+                    <p class="lead">"The best architecture firm we’ve ever worked with! Highly recommended."</p>
+                    <strong>– Emily R.</strong>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="text-center">
+                    <p class="lead">"Their designs are innovative and perfectly align with our vision."</p>
+                    <strong>– James K.</strong>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="text-center">
+                    <p class="lead">"Absolutely stunning architecture, blending modern and classic elements beautifully."</p>
+                    <strong>– Sarah M.</strong>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<section id="contact" class="container my-5 fade-in">
+    <h2 class="text-center">Get in Touch</h2>
+    <form id="contactForm" class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required>
+            <div class="invalid-feedback">Please enter your name.</div>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+            <div class="invalid-feedback">Please enter a valid email.</div>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+            <div class="invalid-feedback">Please enter a message.</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+</section>
+
+<section id="map" class="container my-5 fade-in">
+    <h2 class="text-center">Find Us</h2>
+    <div class="ratio ratio-16x9">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509469!2d144.95373531532185!3d-37.81627977975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f2e5e3fd%3A0x5a31d8e3e3b6b9c5!2sMelbourne%20City%20Centre!5e0!3m2!1sen!2sau!4v1644911572253!5m2!1sen!2sau"
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"></iframe>
+			
+    </div>
+</section>
+
+<section id="newsletter" class="container my-5 fade-in">
+    <h2 class="text-center">Subscribe to Our Newsletter</h2>
+    <form action="YOUR_MAILCHIMP_FORM_URL" method="post">
+        <div class="mb-3">
+            <input type="email" class="form-control" name="EMAIL" placeholder="Enter your email" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="container text-center py-4">
+    <p>&copy; 2024 Company, Inc. | <a href="#">Privacy</a> | <a href="#">Terms</a></p>
+    <p><a href="#">Back to top</a></p>
+  </footer>
+</main>
